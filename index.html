@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JADRA AI — Shaxsiy suhbatdosh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">✦ JADRA <span>AI</span></div>
+    <p class="caption">SENING SHAXSIY SUHBATDOSHIN</p>
+
+    <button id="newChat" class="new-chat">＋ Yangi suhbat</button>
+
+    <div class="side-title">SENING XOTIRANG</div>
+    <div id="memoryList" class="memory-list">
+      Hozircha xotira bo‘sh.
+    </div>
+
+    <button id="clearMemory" class="side-button">🧠 Xotirani tozalash</button>
+    <button id="clearHistory" class="side-button">🗑 Suhbatlarni o‘chirish</button>
+
+    <div class="author">
+      <span>LOYIHA MUALLIFI</span>
+      <strong>AKRAMJONOVA<br>JADRA MARATOVNA</strong>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header>
+      <div>
+        <h2>JADRA AI <span class="online"></span></h2>
+        <p>Men shu yerdaman, gaplashamiz! 💛</p>
+      </div>
+      <div class="memory-status">● Xotira yoqilgan</div>
+    </header>
+
+    <section id="chat" class="chat">
+      <div id="welcome" class="welcome">
+        <div class="welcome-icon">✦</div>
+        <h1>Salom! Men JADRA AI 💛</h1>
+        <p>Men bilan istagan mavzuda suhbatlashishing mumkin.</p>
+        <div class="suggestions">
+          <button class="suggestion">Bugun kayfiyatim ajoyib!</button>
+          <button class="suggestion">Bir oz suhbatlashamizmi?</button>
+          <button class="suggestion">Men haqimda nimalarni bilasan?</button>
+        </div>
+      </div>
+    </section>
+
+    <form id="chatForm" class="composer">
+      <textarea id="messageInput" placeholder="Menga biror narsa yoz..." rows="1"></textarea>
+      <button id="sendButton" type="submit" aria-label="Yuborish">➤</button>
+    </form>
+
+    <p class="disclaimer">Suhbatlar ushbu brauzerda saqlanadi. JADRA AI — qoidalar asosida ishlaydigan suhbatdosh.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
